@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #10367C;
+}
+
+.main_block{
+    padding: 51px 104px 0px 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/images/castelmezzano-1979546\ 1@2x.png);
+    height: 900px;
+    width: 1440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    width: 1232px;
+    height: 46px;
+    display: flex;   
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav > a{
+    font-family: 'Roboto';
+    color: #FFFF;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+nav a:nth-of-type(2){
+    margin-left: 24px;
+}
+nav img:nth-of-type(1) {
+    margin-left:48px;
+}
+
+nav img:nth-of-type(2) {
+    margin-left: 22px;
+}
+
+.main_block > div{
+    margin-top: 204px;
+    width: 1232px;
+    height: 487px;
+}
+
+.main_block > div > h1{
+    color:white;
+    width: 550px;
+    height: 118px;
+    font-family: 'Roboto';
+    font-weight:medium;
+    font-size:50px;
+}
+
+.main_block > div > h1 > span{
+    display:block;
+    width: 75px;
+}
+
