@@ -291,9 +291,38 @@ nav img:nth-of-type(2) {
     background-color: #FFFF;
     width: 1648px;
     height: 200px;
+    display: flex;
+    justify-content: center;
 }
-.reklama {
-    position: absolute;
+.rek {
     background-color: #EAF0F9;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    width: 1270px;
+    height: 200px;                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+.rek > img {
+    margin-top: 57px;
+    margin-left: 40px;
+}
+.rek > p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 150px;
+    margin-top: -111px;
+    font-family: 'Roboto';
+}
+.rek > button {
+    width: 128px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px ;
+    font-size: 18px;
+    font-weight: 400;
+    color:#3077C6;
+    background-color: #FFFF;
+    border-color: #3077C6;
+    margin-left: 30px;
+}
+.rek > img:nth-of-type(2){
+    margin-top: -55px;
+    margin-left: 1211px;
 }
